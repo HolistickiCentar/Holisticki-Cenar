@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zavirite u naš prijatan ambijent i pogledajte kako izgleda put do prirodnog zdravlja.">
+    <title>Galerija | Homeopatija Nera Inc.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-7.2.0-web/css/all.min.css">
+    
+    <link rel="icon" type="image/png" href="favourite.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="skript.js" defer></script>
+    <script src="galerija.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container header-content">
+            <a href="index.html" class="logo" aria-label="HomeoNera - početna">
+                <img src="Nera.png" alt="HomeoNera logo" width="120" height="120">
+            </a>
+
+            <button class="hamburger" id="hamburger" aria-label="Otvori navigaciju" aria-expanded="false" aria-controls="nav-links">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <nav aria-label="Glavna navigacija">
+                <ul id="nav-links" role="list">
+                    <li><a href="index.html#pocetna">Početna</a></li>
+                    <li><a href="galerija.html" class="active-link">Galerija</a></li>
+                    <li><a href="Omeni.html">O meni</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="about-hero" aria-labelledby="galerija-hero-heading">
+            <div class="container">
+                <div class="about-hero-content">
+                    <span class="hero-eyebrow">Ambijent</span>
+                    <h1 id="galerija-hero-heading">Naša <em>Oaza</em></h1>
+                    <p>Prostor gde spajamo holistički i posvećen pristup Vašem zdravlju</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me-section" aria-label="Fotografije ordinacije">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="img-box gallery-item" tabindex="0">
+                        <img src="Galerie/Sideviewoffice 16_9.jpg" alt="Ambijent ordinacije 1" class="profile-img">
+                    </div>
+                    <div class="img-box gallery-item" tabindex="0">
+                        <img src="Galerie/Diploma 16_9.jpg" alt="Homeopatski preparati" class="profile-img">
+                    </div>
+                    <div class="img-box gallery-item" tabindex="0">
+                        <img src="Galerie/Couch.jpg" alt="Detalj iz prirode" class="profile-img">
+                    </div>
+                    <div class="img-box gallery-item" tabindex="0">
+                        <img src="Galerie/Frontview 16_9.jpg" alt="Ambijent ordinacije 2" class="profile-img">
+                    </div>
+                    <div class="img-box gallery-item" tabindex="0">
+                        <img src="Galerie/Sideviewoffice 16_9.jpg" alt="Ambijent ordinacije 1" class="profile-img">
+                    </div>
+                    <div class="img-box gallery-item" tabindex="0">
+                        <img src="Galerie/Sideview.jpg" alt="Homeopatski preparati" class="profile-img">
+                    </div>
+                    <div class="img-box gallery-item" tabindex="0">
+                        <img src="Galerie/Forkids.jpg" alt="Detalj iz prirode" class="profile-img">
+                    </div>
+                    <div class="img-box gallery-item" tabindex="0">
+                        <img src="Galerie/Kapi.jpg" alt="Ambijent ordinacije 2" class="profile-img">
+                    </div>
+                    <div class="img-box gallery-item" tabindex="0">
+                        <img src="Galerie/Frontviewoffice 9_16.jpg" alt="Ambijent ordinacije 1" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="kontakt">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h4>HomeoNera</h4>
+                <p>Vaš partner u prirodnom zdravlju.</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/dr.daniela.mitrovic.98" aria-label="Instagram profil"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/people/Holisti%C4%8Dki-centar-Nera/61590607058036/" aria-label="Facebook profil"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-contact">
+                <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+381606625232">+381 60 6625232</a></p>
+                <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Đorđa Stanojevića 39, Novi Beograd</p>
+                <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:homeonera@gmail.com">homeonera@gmail.com</a></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 HomeoNera Inc. Sva prava zadržana.</p>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-modal="true" role="dialog">
+        <button class="lightbox-btn lightbox-close" id="lightbox-close" aria-label="Zatvori galeriju">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-btn lightbox-prev" id="lightbox-prev" aria-label="Prethodna slika">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <img src="" alt="Uvećana slika" class="lightbox-img" id="lightbox-img">
+        <button class="lightbox-btn lightbox-next" id="lightbox-next" aria-label="Sledeća slika">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+</body>
+</html>
